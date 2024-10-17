@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resonsive form</title>
+    <link rel="stylesheet" href="milestone.css">
+</head>
+<body>
+    <div class="Login-container">
+        <form id="login form">
+            <div class="profile-pic-section">
+                <img id="profilePicPreview" src="image.jpg" alt="profile picture"/>
+                <id="profilePicInput" accept="image/*" />
+            </div>
+
+            <h2> Register</h2>
+
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="Name" placeholder="Enter your Name" required/>
+            </div>
+
+            <div class="input-group">
+                <label for="email">email</label>
+                <input type="text" id="email" placeholder="Enter your email"required/>
+            </div>
+
+            <div class="input-group" >
+                <label for="password">password</label>
+                <input type="password" id="password" placeholder="Enter your password" required/>
+                <span class="toggle-password" id="togglepassword"></span>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <div class="input-group">
+                <label for="Education">Education</label>
+                <input type="text" id="Education" placeholder="Enter your Education" required/>
+                </div>
+
+                <div class="input-group">
+                    <label for="skills">Skills</label>
+                    <input type="text" id="skills" placeholder="Enter your skills" required/>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="Mobile Number">MobileNumber</label>
+                        <input type="text" id="Mobile NUmber" placeholder="Enter your Mobile NUmber" required/>
+                        </div>
+
+                        <button type="submit"> submit</button>
+                        <p id="errorMassage"></p>
+        </form>
+
+    </div>
+    <script src="milestone.js"></script>
+</body>
+</html>
